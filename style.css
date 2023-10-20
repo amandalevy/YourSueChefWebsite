@@ -1,0 +1,161 @@
+body{
+    background-color: #DEDEDE;
+}
+
+nav,.navbar-expand-xl {
+    background-color: rgba(38, 97, 149, 1);
+    justify-content: space-around;
+
+}
+
+.navbar-nav{
+font-size:large;
+font-weight: 600;
+--bs-nav-link-color: #fff;
+font-family: 'Lora';
+justify-content: space-around;
+}
+
+.navbar-collapse{
+    justify-content: space-around;
+}
+
+
+.nav-item{
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+.dropdown-item {
+    font-family: 'Lora';
+    font-size: large;
+    color: rgba(38, 97, 149, 1);
+    font-weight: 500;
+}
+
+hr{
+margin: 0;
+color: rgba(38, 97, 149, 1);
+opacity: 0.5;
+}
+
+
+.landing-image{
+    background-image: url("board.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    margin: 0rem;
+    padding-top: 0rem;
+    padding-bottom: 6rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    max-width: -webkit-fill-available;
+}
+
+.outline-button{
+    outline-color: rgba(38, 97, 149, 1);
+    outline-width: 2px;
+    outline-style: solid;
+    outline-offset: -10px;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 80px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+}
+
+
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+    font-weight: 300;
+    color: #000;
+    text-align: center;
+
+ 
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color:rgba(38, 97, 149, 1);
+    text-align: center;
+}
+
+h4 {
+    font-family:  'Josefin Sans', sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    font-style: italic;
+    color: rgba(38, 97, 149, 1);
+    text-align: center;
+}
+
+h5 {
+    font-family:  'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    color:#000;
+    text-align: center;
+}
+
+
+
+.portBox {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    overflow: hidden;
+    justify-self: center;
+    width: fit-content;
+    max-width: 75vw;
+    padding: 3rem;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("white arrow.svg");
+    width: 2rem;
+}
+
+.carousel-control-next-icon {
+    background-image: url("white\ right\ arrow.svg");
+    width:2rem;
+}
+
+.btn{
+    background-color: rgba(21, 38, 58, 1); 
+    color: #fff; 
+    font-family: 'Lora'; 
+    margin-bottom: 1rem; 
+    margin-top: 1rem; 
+}
+
+.list-group-item {
+    background-color:  rgba(21, 38, 58, 1);
+    color:#fff;
+    font-family: 'Lora';
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    border:3px solid #fff;
+}
+
+.row {
+    --bs-gutter-x: 0 rem;
+}
+
